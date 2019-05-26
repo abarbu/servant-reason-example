@@ -1,4 +1,4 @@
-# Haskell Servant and Elm Example
+# Haskell Servant and Reason Example
 
 <img src="https://cdn.svgporn.com/logos/reasonml.svg" alt="reason" height="40"/>
 <img src="https://www.haskell.org/img/haskell-logo.svg" alt="reason" height="40"/>
