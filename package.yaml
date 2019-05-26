@@ -1,0 +1,52 @@
+name:                servant-reason-example
+version:             0.1.0.0
+github:              "abarbu/servant-reason-example"
+license:             BSD3
+author:              "Author name here"
+maintainer:          "andrei@0xab.com"
+copyright:           "2019 Andrei Barbu"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+# Metadata used when publishing your package
+synopsis:            An example of how to use Servant with Reason
+category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/abarbu/servant-reason-example#readme>
+
+dependencies:
+  - base >= 4.7 && < 5
+  - warp
+  - aeson
+  - wai-extra
+  - wai-make-assets
+  - servant-reason
+  - servant
+  - wai
+  - servant-server
+  - transformers
+  - containers
+
+executables:
+  server:
+    main: Main.hs
+    source-dirs:
+      - server/src
+
+tests:
+  spec:
+    main: Spec.hs
+    source-dirs:
+      - server/test
+      - server/src
+    dependencies:
+      - warp >= 3.2.3
+      - hspec
+      - servant-client
+      - http-client
+      - http-types

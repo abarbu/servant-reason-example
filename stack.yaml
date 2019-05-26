@@ -1,0 +1,16 @@
+resolver: lts-13.12
+
+packages:
+- .
+- location:
+    git: https://github.com/soenkehahn/wai-make-assets.git
+    commit: d53268df8414d8be3629a9928dcf4fc15fea9ced
+  extra-dep: true
+- location:
+    git: https://github.com/abarbu/servant-reason.git
+    commit: acaaf076fa5189046d4599038b27ddd568cb35e7
+  extra-dep: true
+- location:
+    git: https://github.com/abarbu/reason-export.git
+    commit: cffffb6cffc684d370c9b4d6d1454751499eb9e2
+  extra-dep: true

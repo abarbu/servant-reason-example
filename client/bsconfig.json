@@ -1,0 +1,25 @@
+{
+  "name": "servant-test-project",
+  "reason": { "react-jsx": 2 },
+  "version": "0.1.0",
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+      "reason-react",
+      "bs-css",
+      "bs-fetch",
+      "@glennsl/bs-json"
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "namespace": true,
+  "refmt": 3
+}
