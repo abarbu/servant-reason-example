@@ -5,6 +5,9 @@
 
 Based off of [example-servant-elm](https://github.com/haskell-servant/example-servant-elm)
 
+Uses [reason-export](https://github.com/abarbu/reason-export) and
+[servant-reason](https://github.com/abarbu/servant-reason).
+
 You'll see how to use Servant with Reason, how to generate Reason from a Servant API and
 how it all fits together in the end.
 
